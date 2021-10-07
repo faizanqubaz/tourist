@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
-
+import NavbarComponent from './component/Navbar/Navbar';
+import SliderComponent from './component/Slider/Slider';
+import Adventure from './component/Adventure/Adventure';
+import VideoContainer from './component/VideoContainer/VideoContainer';
+import Map from './component/Maps/Map';
+import FormComponent from './component/Form/FormComponent'
+import Footer from './component/Footer/Footer'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <NavbarComponent name='TOURISM' />
+     <SliderComponent />
+     <Adventure name='Gilgit Adventure is Here.' />
+     <VideoContainer />
+        <Map /> 
+        <FormComponent />
+      <Footer /> 
     </div>
   );
 }
