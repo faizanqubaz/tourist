@@ -10,7 +10,7 @@ function App() {
     <div className="App">
      <NavbarComponent name='TOURISM' />
      <SliderComponent />
-     <Adventure name='Gilgit Adventure is Here.' />
+     <Adventure name='Hunza Adventure is Here.' />
      <VideoContainer />
         <Map /> 
         <FormComponent />
