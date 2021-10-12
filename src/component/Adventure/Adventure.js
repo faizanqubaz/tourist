@@ -19,7 +19,8 @@ const Adventure = (props) =>{
 <AdventureImage styles='adventure_drive' source={image2} />
 </div>
 <div className='adventure_buttons'>
-<Button name='Explore it' list='adventure_button_explore' />
+
+<Button  name='Explore it' list='adventure_button_explore' />
 <Button name='Configure Now' list='adventure_buttons_list' />
 <Button name='Explore it' list='adventure_button_explore' />
 <Button name='Configure Now' list='adventure_buttons_list' />

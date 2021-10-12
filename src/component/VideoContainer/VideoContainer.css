@@ -9,6 +9,9 @@
     height: 400px;
  
 }
+.video_container_small_conts{
+    display: flex;
+}
 .video_container_contents_heading{
     font-size: 50px;
     letter-spacing: 7px;
