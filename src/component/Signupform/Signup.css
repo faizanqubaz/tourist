@@ -1,0 +1,17 @@
+.heading h1{
+text-align: center;
+}
+.username{
+  height: 35px;
+  width: 500px;
+}
+.email{
+    height: 35px;
+    width: 500px;
+}
+.mainform{
+    text-align: center;
+}
+.heading i {
+    text-align: center;
+}

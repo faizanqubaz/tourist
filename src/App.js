@@ -5,6 +5,7 @@ import VideoContainer from './component/VideoContainer/VideoContainer';
 import Map from './component/Maps/Map';
 import FormComponent from './component/Form/FormComponent'
 import Footer from './component/Footer/Footer'
+import Signupform from './component/Signupform/Signup';
 function App() {
   return (
     <div className="App">
@@ -15,6 +16,7 @@ function App() {
         <Map /> 
         <FormComponent />
       <Footer /> 
+      <Signupform/>
     </div>
   );
 }
