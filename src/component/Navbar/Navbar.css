@@ -46,6 +46,7 @@ body{
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 19px;
     cursor: pointer;
+    color: black;
 }
 .footer_navbar{
     display: flex;
