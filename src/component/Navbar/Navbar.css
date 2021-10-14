@@ -52,8 +52,25 @@ body{
     align-items: center;
     width: 8%;
     justify-content: space-between;
+    position: relative;
 }
 .footer_slider_icon{
     font-size: 22px;
     cursor: pointer;
+}
+.popup{
+    
+    position: absolute;
+    top: 80px;
+    left: 15px;
+    background-color: white;
+    display: none;
+}
+.antipopup{
+    position: absolute;
+    background-color: white;
+    left: 17px;
+    top: 42px;
+    background-color: white;
+    display: block; 
 }
